@@ -1,0 +1,607 @@
+/* Reglas de estilo para todo el sitio */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 50px; 
+}
+
+.no-margin-container {
+    margin: -50px;
+}
+
+
+/* Reglas de estilo para el boton flotante*/
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    z-index: 9999;
+    a {
+    color: white;
+    display: block;
+    text-decoration: none;
+} 
+    i {
+    font-size: 24px;
+}
+}
+
+/* Reglas de estilo para el cierre del index*/
+.text-contacto {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    p {
+    font-size: 20px;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+}
+
+.boton-contacto {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c39e9e;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.boton-contacto:hover {
+    background-color: #946f6f;
+}
+
+/* Reglas de estilo para el header*/
+header {
+    background-color: #c39e9e;
+}
+.navbar-brand {
+    max-width: 70px; 
+}
+
+#Logo {
+    max-width: 100%; 
+}
+
+.nav-right{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.nav-item2 {
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+/* Estilos del menú desplegable */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #c39e9e;
+    list-style: none;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown a i.fa-chevron-down {
+    font-size: 12px;
+}
+
+.dropdown:hover a i.fa-chevron-down {
+    color: #000000;
+}
+
+/* Reglas de estilo imagen main index*/
+#imagen-container img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Reglas de estilo para el main del index*/
+h3.centrado1 {
+    background-color: #c39e9e;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.imagen-con-texto-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.imagen-con-texto {
+    max-width: 400px;
+    margin: 20px;
+    position: relative;
+    img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+}
+
+.texto-boton {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-50%);
+    h2 {
+    font-size: 40px;
+}
+    h2,
+    p {
+    margin: 0;
+}
+}
+
+.boton {
+    margin-top: 10px;
+    background-color: #c39e9e;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-color: #946f6f;
+}
+
+/* Reglas de estilo para el footer*/
+footer {
+    background-color: #c39e9e;
+    color: black; 
+    padding: 20px; 
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+    p {
+    margin: 0;
+}
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    a {
+    text-decoration: none;
+    color: #000; 
+    font-size: 40px;
+}
+}
+
+/* Estilos para card cursos y recursos */
+.card {
+    max-width: 450px; 
+}
+
+.card-body {
+    padding: 10px; 
+}
+
+.card-title {
+    font-size: 20px; 
+}
+
+.card-text {
+    font-size: 15px; 
+}
+
+.btn {
+    font-size: 12px; 
+}
+
+/* Estilos para la sección de contacto */
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    h1 {
+    font-size: 24px;
+    margin: 0;
+}
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+p {
+    font-size: 16px;
+    color: #000000;
+}
+}
+
+/* Estilos para la información de contacto */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h4 {
+    font-size: 18px;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+    color: #555;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+}
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    width: 100%;
+    max-width: 600px; /* Ajusta el ancho máximo del formulario según tu preferencia */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    label {
+    font-size: 16px;
+}
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Estilos para el inicio sesion*/
+.login-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-form {
+    padding: 20px;
+    background-color: #c39e9e;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login-image img {
+    max-width: 350px;
+    height: auto;
+}
+
+.btn-success {
+    font-size: 15px;
+    background-color: #96c3ce; 
+    border-color: #96c3ce; 
+    color: black; 
+}
+
+.btn-success:hover {
+    background-color: #4a7c88; 
+    border-color: #4a7c88; 
+    color: #fff;
+}
+
+/* Estilos para las opciones de moneda */
+.flag-icon {
+    max-width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.currency-option {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.currency-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.currency-option input[type="radio"]:checked + label {
+    border: 2px solid #c39e9e;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.currency-selector form input[type="radio"] {
+    display: none;
+}
+
+/* Estilos para el carrito vacio */
+.carrito-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: start; 
+    padding: 20px;
+}
+
+.carrito {
+    text-align: center;
+    margin: 0;
+}
+
+.cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;;
+}
+
+.cart-h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cart-p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #c39e9e;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #946f6f;
+}
+
+/* Estilos para el boton iniciosesion */
+.btn1 {
+    background-color: #96c3ce;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #608e99;
+}
+
+/* Estilos para el modal recursos */
+.modal-content {
+    background-color: #608e99;
+}
+
+/* Estilos para servicios */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: calc(33.33% - 20px);
+    padding-top: calc(33.33% - 20px);
+    background-color: #96c3ce;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.service-content,
+.service-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.service-hover {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.service:hover .service-content {
+    opacity: 0;
+}
+
+.service:hover .service-hover {
+    opacity: 1;
+}
+
+/* Estilos para CURSOS */
+.card-footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+span.position-absolute {
+    font-size: 20px; 
+}
+
+/* Estilos para celular */
+@media (max-width: 576px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-content {
+        padding-right: 100px; 
+    }
+
+    .social-icons {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center; 
+    }
+
+    .services-container {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .service {
+        width: 100%;
+        padding-top: calc(100% - 20px);
+    }
+
+    .contact-container {
+        flex-direction: column-reverse; 
+    }
+    
+    .contact-info {
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .contact-form {
+        width: 100%; 
+    }
+}
+
+
+
+.content-container {
+    text-align: center;
+    max-width: 800px;
+}
+
+.custom-heading, .custom-paragraph {
+    text-align: center;
+}
+
+.custom-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Espacio entre las columnas */
+    margin-top: 20px;
+}
+
+.custom-paragraph {
+    text-align: justify;
+}
+
+#carouselExampleIndicators {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
