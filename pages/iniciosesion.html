@@ -116,55 +116,40 @@
     </header>
     <!-- FIN DEL HEADER -->
     <!-- INICIO DEL MAIN -->
-    <main>
-      <h1>INICIA SESIÓN EN TU CUENTA</h1>
-      <div class="login-container">
-        <div class="login-form">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Correo electrónico*</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                required
-              />
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Contraseña*</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-                required
-              />
-            </div>
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >Recuérdame</label
-              >
-            </div>
-            <button type="submit" class="btn1 btn-success">
-              INICIAR SESIÓN
-            </button>
-          </form>
-          <div>
-            <a href="#">¿Olvidaste tu contraseña?</a>
+    <main class="d-flex justify-content-center align-items-center">
+      <div class="container">
+          <h1>INICIA SESIÓN EN TU CUENTA</h1>
+          <div class="row">
+              <div class="col-lg-6 col-md-12">
+                  <div class="login-container">
+                      <div class="login-form">
+                          <form>
+                              <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Correo electrónico*</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Contraseña*</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1" required />
+                              </div>
+                              <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                  <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+                              </div>
+                              <button type="submit" class="btn-success mb-3">INICIAR SESIÓN</button>
+                          </form>
+                          <div>
+                              <a href="#">¿Olvidaste tu contraseña?</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                  <div class="login-image">
+                      <img src="../img/iniciodesesion.jpg" alt="Imagen de inicio de sesión" class="img-fluid" />
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="login-image">
-          <img src="../img/recurso4.png" alt="Imagen de inicio de sesión" />
-        </div>
       </div>
       <!-- Boton flotante -->
       <div class="floating-button">
