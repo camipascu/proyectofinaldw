@@ -612,10 +612,6 @@ span.position-absolute {
 
 /* Estilos para celular */
 @media (max-width: 576px) {
-    * { 
-        border: 1px solid red;
-    }
-
     .footer {
         flex-direction: column;
         align-items: center;
