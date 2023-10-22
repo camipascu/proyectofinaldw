@@ -1,0 +1,44 @@
+/* Reglas de estilo para todo el sitio */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: 50px;
+    min-height: 70vh; 
+}
+
+.no-margin-container {
+    margin: -50px;
+}
+
+h1{
+    margin-bottom: 30px; 
+    text-align: center; 
+    font-weight: bold;
+}
+
+/* Reglas de estilo para el boton flotante*/
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #25d366;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 55px;
+    z-index: 9999;
+    a {
+    color: white;
+    display: block;
+    text-decoration: none;
+} 
+    i {
+    font-size: 24px;
+}
+}
