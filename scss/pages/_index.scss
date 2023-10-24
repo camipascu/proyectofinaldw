@@ -7,7 +7,7 @@
 
 /* Reglas de estilo para el main del index*/
 h3.centrado1 {
-    background-color: #c39e9e;
+    background-color: $color-primario;
     margin: 0;
     padding: 30px;
     display: flex;
@@ -63,7 +63,7 @@ h3.centrado1 {
 
 .boton {
     margin-top: 10px;
-    background-color: #c39e9e;
+    background-color: $color-primario;
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 20px;
@@ -76,7 +76,7 @@ h3.centrado1 {
 }
 
 .boton:hover {
-    background-color: #946f6f;
+    background-color: $color-primariohover;
 }
 
 
@@ -97,7 +97,7 @@ h3.centrado1 {
 .boton-contacto {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #c39e9e;
+    background-color: $color-primario;
     color: black;
     text-decoration: none;
     border-radius: 10px;
@@ -105,5 +105,5 @@ h3.centrado1 {
 }
 
 .boton-contacto:hover {
-    background-color: #946f6f;
+    background-color: $color-primariohover;
 }

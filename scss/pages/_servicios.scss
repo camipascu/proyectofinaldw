@@ -17,7 +17,7 @@
 .service {
     width: calc(33.33% - 20px);
     padding-top: calc(33.33% - 20px);
-    background-color: #96c3ce;
+    background-color: $color-secundario;
     margin: 10px;
     position: relative;
     cursor: pointer;

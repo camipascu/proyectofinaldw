@@ -1,6 +1,6 @@
 /* Reglas de estilo para el header*/
 header {
-    background-color: #c39e9e;
+    background-color: $color-primario;
 }
 
 .navbar {
@@ -38,7 +38,7 @@ header {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #c39e9e;
+    background-color: $color-primario;
     list-style: none;
     padding: 0;
     top: 100%;

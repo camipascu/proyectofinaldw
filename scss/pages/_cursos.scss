@@ -20,7 +20,7 @@ span.position-absolute {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     gap: 20px; 
-    background-color: #c39e9e;
+    background-color: $color-primario;
     padding: 40px;
 }
 
