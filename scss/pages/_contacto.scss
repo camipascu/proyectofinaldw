@@ -33,6 +33,7 @@ p {
     flex: 1;
     margin-left: 40px;
     margin-bottom: 20px;
+    min-height: 683px;
     i {
     font-size: 24px;
     margin-bottom: 10px;
@@ -42,7 +43,7 @@ h4 {
     margin: 0;
 }
 p {
-    font-size: 16px;
+    font-size: 22px;
     color: #555;
 }
 iframe {
@@ -82,3 +83,4 @@ iframe {
 textarea {
     resize: none;
 }
+
