@@ -80,7 +80,7 @@
     }
 
     .contenedor-modalidad {
-        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        flex-direction: column; 
     }
 
     .imgcobro img {
