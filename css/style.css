@@ -333,6 +333,14 @@ textarea {
   resize: none;
 }
 
+.tipografia {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
 /* Estilos para el inicio sesion*/
 .login-container {
   align-items: center;
@@ -391,9 +399,8 @@ textarea {
   text-align: center;
 }
 
-.cart-h1 {
+.cart-h2 {
   font-size: 24px;
-  margin-bottom: 10px;
 }
 
 .cart-p {
@@ -406,7 +413,7 @@ textarea {
   color: black;
   border: none;
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 28px;
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
@@ -418,7 +425,7 @@ textarea {
 }
 
 .imgcobro img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -597,7 +604,7 @@ span.position-absolute {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 200px;
+  min-height: 188.5px;
   padding: 10px;
 }
 
