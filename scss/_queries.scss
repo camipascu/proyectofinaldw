@@ -94,6 +94,17 @@
     
     h1{
         margin-top: 40px;
+        font-size: 34px;
     }
 
+    .gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .vertical-image {
+        grid-column: 1;
+        grid-row: auto; 
+        max-width: 100%;
+    }
 }
